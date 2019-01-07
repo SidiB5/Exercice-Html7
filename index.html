@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Mon premier formulaire</title>
+</head>
+<body>
+  <div class="Identite">
+    <p><span class="VotreIdentite">   Votre Identité</span></p>
+    <form class="FormIdentite" action="index.html" method="post">
+      <fieldset>
+        <ol>
+          <li>
+            <label for="Nom"> Nom :</label>
+            <input type="text" name="Nom" placeholder="Nom">
+          </li>
+          <li>
+            <label for="Prenom">Prénom :</label>
+            <input type="text" name="Prenom" placeholder="Prénom" />
+          </li>
+          <li>
+            <label for="AdresseMail">Adresse Mail :</label>
+            <input type="text" name="AdresseMail" placeholder="Adresse mail">
+          </li>
+        </ol>
+      </fieldset>
+    </form>
+  </div>
+  <div class="Livraison">
+    <p><span class="livraison">Adresse de livraison</span></p>
+    <form class="FormAdresseDeLivraison" action="index.html" method="post">
+      <fieldset>
+      <ol>
+        <li>
+          <label for="Adresse">Adresse :</label>
+          <textarea name="name" rows="4" cols="20"></textarea>
+        </li>
+        <li>
+          <label for="CodePostal">Code postal :</label>
+          <input type="text" name="CodePostal" placeholder="Code postal">
+        </li>
+        <li>
+          <label for="Ville">Ville :</label>
+          <input type="text" name="Ville" placeholder="Ville">
+        </li>
+      </ol>
+      </fieldset>
+    </form>
+  </div>
+  <div class="Paiement">
+    <p><span class="InfoReglement">Informations de réglement</span></p>
+    <form class="FormPaiement" action="index.html" method="post">
+      <fieldset>
+        <ol>
+            <li>Type de carte bancaire </li>
+              <input type="radio" name="TypeCarte" value="Visa" id="Visa" checked />VISA<br/>
+              <input type="radio" name="TypeCarte" value="Mastercard" id="Mastercard" checked /> Mastercard
+            <li>
+              <label for="NumeroCarte">Numéro de carte :</label>
+              <input type="text" name="NumeroCarte" placeholder="Numéro de carte">
+            </li>
+            <li>
+              <label for="CCV">Code de sécurité :</label>
+              <input type="password" name="CCV" placeholder="Code de sécurité">
+            </li>
+            <li>
+              <label for="NomCarte">Nom du titulaire :</label>
+              <input type="text" name="NomCarte" placeholder="Nom du titulaire">
+            </li>
+        </ol>
+      </fieldset>
+    </form>
+  </div>
+  <button type="submit" name="Jachete" value="">J'achète</button>
+</body>
+</html>

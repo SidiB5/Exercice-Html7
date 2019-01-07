@@ -1,0 +1,24 @@
+span.VotreIdentite {
+  background-color: #2574A9;
+  margin-left: 10px;
+}
+.FormIdentite {
+  background-color: #2574A9;
+  margin-top: -20px;
+}
+span.livraison {
+  background-color: #9A12B3;
+  margin-left: 10px;
+}
+.FormAdresseDeLivraison {
+  background-color: #9A12B3;
+  margin-top: -20px;
+}
+.FormPaiement {
+  background-color: #DB0A5B;
+  margin-top: -20px;
+}
+span.InfoReglement {
+  background-color: #DB0A5B;
+  margin-left: 10px;
+}
